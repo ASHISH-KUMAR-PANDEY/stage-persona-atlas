@@ -1,5 +1,5 @@
 /* ============================================================
-   STAGE · Persona Atlas — stylesheet
+   STAGE · Persona Atlas v2 — stylesheet
    Dark theme inspired by the existing chat-analysis-report site
    ============================================================ */
 
@@ -1147,4 +1147,346 @@ em { color: var(--text); font-style: italic; }
   .hero-title { font-size: 1.95rem; }
   .section-title { font-size: 1.6rem; }
   .stats-row { grid-template-columns: 1fr 1fr; }
+}
+
+/* ============================================================
+   v2 ADDITIONS — version badge, overlays, change cards, gender section
+   ============================================================ */
+
+/* Version badge in brand */
+.version-badge {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 2px 7px;
+  border-radius: 100px;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  background: linear-gradient(135deg, var(--purple), var(--accent));
+  color: white;
+}
+
+/* NEW badge on persona chips */
+.pchip-new {
+  display: inline-block;
+  margin-left: 4px;
+  padding: 1px 5px;
+  border-radius: 3px;
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  background: var(--pink);
+  color: white;
+}
+.new-tag {
+  display: inline-block;
+  margin-left: 10px;
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  background: rgba(219,97,162,0.18);
+  color: var(--pink);
+  vertical-align: middle;
+}
+.new-tag-sm {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 1px 6px;
+  border-radius: 3px;
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  background: rgba(57,208,216,0.16);
+  color: var(--cyan);
+  vertical-align: middle;
+}
+
+/* Persona-strip divider between personas and overlays */
+.pchip-divider {
+  width: 1px;
+  flex-shrink: 0;
+  background: var(--border);
+  margin: 4px 6px;
+}
+.pchip-overlay {
+  background: transparent;
+  border-color: rgba(57,208,216,0.30);
+  color: var(--cyan);
+}
+.pchip-overlay .pchip-num {
+  background: rgba(57,208,216,0.18);
+  color: var(--cyan);
+}
+.pchip-overlay:hover, .pchip-overlay.active {
+  background: rgba(57,208,216,0.06);
+  color: var(--cyan);
+}
+
+/* ============================================================
+   "Why v2" — changes section
+   ============================================================ */
+.v2-changes {
+  padding: 76px 0;
+  border-top: 1px solid var(--border-soft);
+  background:
+    radial-gradient(ellipse at top left, rgba(219,97,162,0.06) 0%, transparent 50%);
+}
+.changes-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+  margin-top: 8px;
+}
+.change-card {
+  background: var(--bg-elev);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius);
+  padding: 22px 22px 24px;
+  position: relative;
+  border-left: 3px solid var(--accent);
+}
+.change-crit { border-left-color: var(--red); }
+.change-add  { border-left-color: var(--green); }
+.change-drop { border-left-color: var(--yellow); }
+.change-num {
+  font-family: var(--font-mono);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text-dim);
+  margin-bottom: 6px;
+}
+.change-card h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 0 10px;
+  color: var(--text);
+  line-height: 1.35;
+}
+.change-card p {
+  margin: 0 0 10px;
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+.change-card p:last-of-type { margin-bottom: 0; }
+.change-card p strong { color: var(--text); }
+.change-card p em { color: var(--text); font-style: italic; }
+.change-card a { color: var(--accent); }
+.change-stat {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px dashed var(--border-soft);
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+.change-stat span {
+  color: var(--text);
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  margin: 0 3px;
+}
+
+/* ============================================================
+   Persona grid 2-column variant (for v2 simpler persona dossiers)
+   ============================================================ */
+.persona-grid.two-col {
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+.reframe-card p {
+  margin: 0 0 10px;
+  font-size: 0.92rem;
+  color: var(--text);
+  line-height: 1.6;
+}
+.reframe-card p:last-child { margin-bottom: 0; }
+.reframe-card strong { color: var(--text); font-weight: 600; }
+.reframe-card em { color: var(--text); font-style: italic; }
+.reframe-card ul {
+  margin: 8px 0;
+  padding-left: 18px;
+}
+.reframe-card ul li {
+  font-size: 0.9rem;
+  margin-bottom: 6px;
+  color: var(--text-muted);
+  line-height: 1.55;
+}
+.reframe-card ul li strong { color: var(--text); }
+.reframe-card ul li em { color: var(--text); font-style: italic; }
+
+/* ============================================================
+   Overlays section
+   ============================================================ */
+.overlays-section {
+  padding: 76px 0;
+  border-top: 1px solid var(--border-soft);
+  background: rgba(57,208,216,0.02);
+}
+.overlay {
+  background: var(--bg-elev);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius);
+  padding: 26px 28px;
+  margin-bottom: 18px;
+  border-left: 4px solid var(--cyan);
+}
+.overlay-o1 { border-left-color: var(--gold); }
+.overlay-o2 { border-left-color: var(--yellow); }
+.overlay-o3 { border-left-color: var(--cyan); }
+.overlay-head {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 18px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--border-soft);
+}
+.overlay-id {
+  font-family: var(--font-mono);
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--text);
+  opacity: 0.85;
+  min-width: 50px;
+}
+.overlay-o1 .overlay-id { color: var(--gold); }
+.overlay-o2 .overlay-id { color: var(--yellow); }
+.overlay-o3 .overlay-id { color: var(--cyan); }
+.overlay-name {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: 0 0 4px;
+  color: var(--text);
+  letter-spacing: -0.01em;
+}
+.overlay-tag {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.84rem;
+}
+.overlay-tag strong {
+  color: var(--text);
+}
+.overlay-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+}
+.overlay-section {
+  font-size: 0.88rem;
+  line-height: 1.6;
+}
+.overlay-section p {
+  margin: 0 0 9px;
+  color: var(--text);
+}
+.overlay-section p:last-child { margin-bottom: 0; }
+.overlay-section em { color: var(--text); font-style: italic; }
+.overlay-section ul {
+  margin: 8px 0;
+  padding-left: 18px;
+}
+.overlay-section ul li {
+  margin-bottom: 6px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+.overlay-section ul li code {
+  color: var(--cyan);
+}
+.overlay-code {
+  display: block;
+  background: rgba(255,255,255,0.04);
+  padding: 10px 12px;
+  border-radius: var(--radius-sm);
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  line-height: 1.65;
+  color: var(--text-muted);
+  margin-top: 6px;
+  white-space: pre-wrap;
+}
+
+/* Mini table inside cards */
+.mini-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+  margin: 8px 0 14px;
+}
+.mini-table th, .mini-table td {
+  padding: 7px 10px;
+  text-align: left;
+  border-bottom: 1px solid var(--border-soft);
+  color: var(--text);
+}
+.mini-table th {
+  font-weight: 500;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  background: rgba(255,255,255,0.02);
+}
+.mini-table td {
+  font-variant-numeric: tabular-nums;
+}
+.mini-table td strong { color: var(--text); font-weight: 600; }
+
+/* ============================================================
+   Gender section
+   ============================================================ */
+.gender-section {
+  padding: 76px 0;
+  border-top: 1px solid var(--border-soft);
+  background:
+    radial-gradient(ellipse at bottom right, rgba(248,81,73,0.06) 0%, transparent 60%);
+}
+.gender-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 18px;
+}
+.gender-data-card p,
+.gender-caveat-card p {
+  margin: 0 0 12px;
+  font-size: 0.92rem;
+  color: var(--text);
+  line-height: 1.6;
+}
+.gender-data-card p:last-child,
+.gender-caveat-card p:last-child { margin-bottom: 0; }
+.gender-data-card strong,
+.gender-caveat-card strong { color: var(--text); font-weight: 600; }
+.gender-caveat-card ul {
+  margin: 6px 0 14px;
+  padding-left: 18px;
+}
+.gender-caveat-card ul li {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+  line-height: 1.55;
+}
+.gender-caveat-card ul li code {
+  color: var(--red);
+}
+.next-step-gender {
+  background: linear-gradient(135deg, rgba(88,166,255,0.08), rgba(88,166,255,0.02));
+  border-color: rgba(88,166,255,0.25);
+}
+
+/* Persona-strip — overlay chips alignment fix on smaller screens */
+.persona-strip {
+  align-items: center;
+}
+
+@media (max-width: 980px) {
+  .changes-grid { grid-template-columns: 1fr; }
+  .overlay-body { grid-template-columns: 1fr; }
+  .gender-grid { grid-template-columns: 1fr; }
+  .persona-grid.two-col { grid-template-columns: 1fr; }
 }
