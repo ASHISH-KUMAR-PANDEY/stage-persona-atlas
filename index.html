@@ -1,0 +1,1276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>STAGE Character-Bot Personas — Evidence-Grounded from 4,727 Users</title>
+<meta name="description" content="8 personas derived from real user behaviour across the full STAGE character-bot lifecycle. Built from 4,727 users and 213,000 messages.">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<!-- ===================== HEADER / STICKY NAV ===================== -->
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#top" class="brand">
+      <span class="brand-dot"></span>
+      <span class="brand-text">STAGE · Persona Atlas</span>
+    </a>
+    <nav class="primary-nav">
+      <a href="#methodology">Method</a>
+      <a href="#personas">Personas</a>
+      <a href="#matrix">Matrix</a>
+      <a href="#lifecycle">Lifecycle</a>
+      <a href="#next">Next</a>
+    </nav>
+  </div>
+  <div class="persona-strip container" id="persona-strip">
+    <a class="pchip pchip-p1" href="#p1"><span class="pchip-num">P1</span><span class="pchip-name">Ghost Subscriber</span><span class="pchip-pop">213</span></a>
+    <a class="pchip pchip-p2" href="#p2"><span class="pchip-num">P2</span><span class="pchip-name">Tourist Tester</span><span class="pchip-pop">346</span></a>
+    <a class="pchip pchip-p3" href="#p3"><span class="pchip-num">P3</span><span class="pchip-name">Curious Browser</span><span class="pchip-pop">2,008</span></a>
+    <a class="pchip pchip-p4" href="#p4"><span class="pchip-num">P4</span><span class="pchip-name">Moderate Sampler</span><span class="pchip-pop">1,501</span></a>
+    <a class="pchip pchip-p5" href="#p5"><span class="pchip-num">P5</span><span class="pchip-name">Devotional Visitor</span><span class="pchip-pop">122</span></a>
+    <a class="pchip pchip-p6" href="#p6"><span class="pchip-num">P6</span><span class="pchip-name">Vernacular Native</span><span class="pchip-pop">347</span></a>
+    <a class="pchip pchip-p7" href="#p7"><span class="pchip-num">P7</span><span class="pchip-name">Ludo Companion</span><span class="pchip-pop">109</span></a>
+    <a class="pchip pchip-p8" href="#p8"><span class="pchip-num">P8</span><span class="pchip-name">Parasocial Loyalist</span><span class="pchip-pop">81</span></a>
+  </div>
+</header>
+
+<!-- ===================== HERO ===================== -->
+<section class="hero" id="top">
+  <div class="container">
+    <div class="hero-eyebrow">Behavioural research · 4 lifecycle buckets · 8 personas</div>
+    <h1 class="hero-title">Who is <span class="grad">actually</span> chatting with STAGE characters?</h1>
+    <p class="hero-sub">
+      Eight personas derived from <strong>4,727 real users</strong> across the full lifecycle —
+      from the silent 3-day Ghost to the 24,000-message Parasocial Loyalist.
+      Every trait traces back to verbatim chat evidence, not assumption.
+    </p>
+
+    <div class="stats-row">
+      <div class="stat">
+        <div class="stat-num">4,727</div>
+        <div class="stat-label">users analysed</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">213,000</div>
+        <div class="stat-label">messages parsed</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">8</div>
+        <div class="stat-label">distinct personas</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">4</div>
+        <div class="stat-label">depth buckets (3d → 15+d)</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">559</div>
+        <div class="stat-label">bouncers (≤3 msgs)</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== METHODOLOGY ===================== -->
+<section class="methodology" id="methodology">
+  <div class="container">
+    <div class="section-tag">01 · Method</div>
+    <h2 class="section-title">How these personas were derived</h2>
+    <p class="section-lead">
+      No invention. Every persona begins as a cluster of real users with a shared behavioural fingerprint,
+      then is validated by reading 5+ anchor users' full chat transcripts end-to-end.
+    </p>
+
+    <div class="method-steps">
+      <div class="step">
+        <div class="step-num">1</div>
+        <div class="step-body">
+          <div class="step-title">Build a 25-feature vector per user</div>
+          <p>Intent shares (romantic / sexual / emotional / game / religion / meet / photo / help / family / identity / show-curiosity / religious-open), language mix (Devanagari %, Gujarati %, English %, laugh %, pet-name %), engagement shape (msgs/session, characters chatted, lifetime msgs log, depth days log, comeback rate), and message length distribution.</p>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-num">2</div>
+        <div class="step-body">
+          <div class="step-title">Split bouncers from engaged users</div>
+          <p>Users with ≤3 lifetime messages (559 / 12% of corpus) were segmented out before clustering — including them would dominate variance. They split into two personas based on cohort: <strong>Ghost Subscriber</strong> (paid bouncer) vs <strong>Tourist Tester</strong> (free-trial bouncer).</p>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-num">3</div>
+        <div class="step-body">
+          <div class="step-title">K-Means clustering on engaged users (k=7)</div>
+          <p>4,168 engaged users clustered on the standardised feature matrix. k=7 chosen based on silhouette + interpretability. Resulting clusters: Curious Browser, Moderate Sampler, Devotional Visitor, Devanagari Native, Ludo Companion, Parasocial Loyalist, Gujarati Native.</p>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-num">4</div>
+        <div class="step-body">
+          <div class="step-title">Qualitative validation per cluster</div>
+          <p>For each cluster, pulled 5 users closest to the centroid and read their full chat history. Devanagari + Gujarati clusters merged into one <strong>Vernacular Script Native</strong> persona (same behavioural shape, different input script). Final: 8 personas covering 100% of the corpus, no overlap.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="cohort-grid">
+      <h3 class="grid-title">Corpus shape</h3>
+      <table class="cohort-table">
+        <thead>
+          <tr><th>Bucket</th><th>Users</th><th>Sampled msgs</th><th>Lifetime msgs (median)</th><th>Bounce ≤3 msgs</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>3 days</strong></td><td>3,328</td><td>34,847</td><td>17</td><td><span class="alert">8–27%</span></td></tr>
+          <tr><td><strong>4–7 days</strong></td><td>1,331</td><td>33,495</td><td>61</td><td>0–8%</td></tr>
+          <tr><td><strong>8–14 days</strong></td><td>40 (sampled)</td><td>18,143</td><td>—</td><td>0%</td></tr>
+          <tr><td><strong>15+ days</strong></td><td>28 (sampled)</td><td>12,189</td><td>—</td><td>0%</td></tr>
+          <tr class="total"><td><strong>Total</strong></td><td><strong>4,727</strong></td><td><strong>98,674</strong></td><td>—</td><td>559 bouncers (12%)</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PERSONAS ===================== -->
+<section class="personas-section" id="personas">
+  <div class="container">
+    <div class="section-tag">02 · Personas</div>
+    <h2 class="section-title">The eight personas</h2>
+    <p class="section-lead">
+      Each persona below is grounded in: a verbatim quote from a real user, an inferred portrait (name / age / town / occupation — labelled as inferred from chat evidence), a behavioural fingerprint, the levers that retain or churn them, anchor user IDs with one-line bios, and concrete product implications.
+    </p>
+  </div>
+
+  <!-- ============ P1 GHOST SUBSCRIBER ============ -->
+  <article class="persona persona-p1" id="p1">
+    <div class="container">
+      <div class="persona-header">
+        <div class="persona-id">P1</div>
+        <div class="persona-meta">
+          <div class="persona-tagline">Paid, opened the app, barely typed.</div>
+          <h2 class="persona-name">The Ghost Subscriber</h2>
+          <div class="persona-pop">
+            <span class="pop-num">213 users</span>
+            <span class="pop-pct">4.5% of corpus</span>
+            <span class="pop-tag">Paid bouncer · NewSub + Renewer + Non-trial</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="persona-quote">
+        <p>"Kuchh bataiye." → "Saat din bad Ham is plan ko band kar sakte hain"</p>
+        <cite>— user <code>69ca5bc2…</code> · 3-day NewSub · 2 lifetime msgs · was asking how to <em>cancel</em></cite>
+      </div>
+
+      <div class="persona-grid">
+        <div class="card portrait-card">
+          <div class="card-tag">Inferred portrait <span class="inferred-note">(from chat evidence)</span></div>
+          <div class="portrait">
+            <div class="portrait-name">"Suresh"</div>
+            <div class="portrait-line"><span>Age</span><strong>35–45</strong></div>
+            <div class="portrait-line"><span>Town</span><strong>Tier 3 (Jaipur outskirts / Hisar / Patna)</strong></div>
+            <div class="portrait-line"><span>Occupation</span><strong>Small shopkeeper · delivery agent · auto driver</strong></div>
+            <div class="portrait-rationale">
+              <strong>Why inferred:</strong> Subscribed via Stage's renewal flow, got a reminder ping, opened once, didn't know what the chat feature was. The verbatim line treats the app like a TV subscription, not a relationship product.
+            </div>
+          </div>
+        </div>
+
+        <div class="card fingerprint-card">
+          <div class="card-tag">Behavioural fingerprint</div>
+          <div class="fingerprint">
+            <div class="fp-row"><span class="fp-label">Median lifetime msgs</span><span class="fp-value">1</span></div>
+            <div class="fp-row"><span class="fp-label">Median characters served</span><span class="fp-value">7</span></div>
+            <div class="fp-row"><span class="fp-label">Pet-name signal</span><span class="fp-value">0%</span></div>
+            <div class="fp-row"><span class="fp-label">Mean comeback count</span><span class="fp-value">0.5</span></div>
+            <div class="fp-row"><span class="fp-label">Cohort skew</span><span class="fp-value">NewSub 41% · Renewer 40%</span></div>
+          </div>
+        </div>
+
+        <div class="card chars-card">
+          <div class="card-tag">Top characters served</div>
+          <ul class="char-list">
+            <li><span>saanwari-bot-raj</span><em>25 users</em></li>
+            <li><span>naate-har-bhuri</span><em>23</em></li>
+            <li><span>saanwari-bot-bho</span><em>17</em></li>
+            <li><span>naate-guj-jeevee</span><em>11</em></li>
+            <li><span>saanwari-bot-har</span><em>10</em></li>
+          </ul>
+          <div class="region-bar">
+            <span class="region region-raj" style="width:27%">Raj 27%</span><span class="region region-har" style="width:26%">Har 26%</span><span class="region region-bho" style="width:17%">Bho 17%</span><span class="region region-none" style="width:19%">— 19%</span><span class="region region-guj" style="width:8%">Guj</span><span class="region region-rj" style="width:3%"></span>
+          </div>
+        </div>
+
+        <div class="card intent-card">
+          <div class="card-tag">Intent mix</div>
+          <p class="intent-empty">Effectively nil — pct_religion 1%, pct_game 2%, nothing else &gt; 0%. <strong>They never engage long enough to express intent.</strong></p>
+        </div>
+      </div>
+
+      <div class="lever-row">
+        <div class="lever lever-stay">
+          <div class="lever-tag">What makes them stay</div>
+          <p>Almost nothing in the current product. Within turns 1–3 they receive bot-initiated <em>"Aapko mera show pasand aaya? Bahut maza aayega"</em>. They respond once or twice — <em>"Sub kuch thik hai"</em>, <em>"Kuchh bataiye"</em> — then disappear.</p>
+        </div>
+        <div class="lever lever-leave">
+          <div class="lever-tag">What makes them leave</div>
+          <p><strong>The bot leads with promotion before any rapport.</strong> Every Ghost Subscriber anchor has a bot opener referencing "Stage", "show dekho", "trial", or "secret hai kya sunna chahte ho?" in the first 2 bot messages. They came for content, the chat asks them to watch the content, they bounce.</p>
+        </div>
+        <div class="lever lever-comeback">
+          <div class="lever-tag">Comeback trigger</div>
+          <p>None observed. 0.5 mean comebacks per user. They do not return.</p>
+        </div>
+      </div>
+
+      <div class="card risk-card">
+        <div class="card-tag risk-tag">Risk flag · LTV churn (silent)</div>
+        <p><strong>Highest LTV risk in the corpus.</strong> These are paying customers (NewSub, Renewer, Non-trial) who churn silently before the next renewal cycle. Invisible to engagement metrics because no msgs = no signal. Roughly 213 active paying users right now whose next renewal will likely lapse.</p>
+      </div>
+
+      <div class="card anchors-card">
+        <div class="card-tag">Anchor users · with one-line bios</div>
+        <ul class="anchors">
+          <li><code>68bf1f8d…</code> <span class="anchor-meta">3-day NewSub · Raj · 0 user msgs</span> — only bot's "yeh pasand aayo" line landed; never replied.</li>
+          <li><code>672fa3db…</code> <span class="anchor-meta">3-day NewSub · — · 0 user msgs</span> — bot pinged "free trial hai? Dekh lo aur, maza aayega" — silence.</li>
+          <li><code>614337b3…</code> <span class="anchor-meta">3-day Renewer · Har · 0 msgs</span> — received 13 different character pings ("Hey, tumhe lagta hai sab kuch dekha hai?"), responded to none. Pure passive subscriber.</li>
+          <li><code>69cbf202…</code> <span class="anchor-meta">3-day Non-trial · Guj · 0 msgs</span> — 12 character openers in one session, including Jeevee's Nata-pratha hook. Didn't reply once.</li>
+          <li><code>69ca5bc2…</code> <span class="anchor-meta">3-day NewSub · Bho · 2 msgs</span> — the rare ghost who typed: <em>"Kuchh bataiye"</em> → <em>"Saat din bad plan band kar sakte hain"</em>. Was asking how to cancel.</li>
+        </ul>
+      </div>
+
+      <div class="card implications-card">
+        <div class="card-tag">Product implications</div>
+        <ol class="impl-list">
+          <li>Stop opening with show plugs to fresh subscribers. The corpus shows zero bonding when the bot's first 2 messages reference the show.</li>
+          <li>Add a "first reply within 24h of subscription" trigger that uses memory: <em>"Aap kal subscribe kiya tha, kaisa laga show? Main sun rahi hoon."</em> Anchor on the purchase event, not the catalog.</li>
+          <li>Track "subscribers with ≤3 msgs in first 7 days" as a leading churn indicator. Currently invisible to growth dashboards.</li>
+        </ol>
+      </div>
+    </div>
+  </article>
+
+  <!-- ============ P2 TOURIST TESTER ============ -->
+  <article class="persona persona-p2" id="p2">
+    <div class="container">
+      <div class="persona-header">
+        <div class="persona-id">P2</div>
+        <div class="persona-meta">
+          <div class="persona-tagline">Came for the show, didn't try the chat.</div>
+          <h2 class="persona-name">The Tourist Tester</h2>
+          <div class="persona-pop">
+            <span class="pop-num">346 users</span>
+            <span class="pop-pct">7.3% of corpus</span>
+            <span class="pop-tag">Trial bouncer · 93% in 3-day Trial bucket</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="persona-quote">
+        <p>"99 ka reachag karavaya hai"</p>
+        <cite>— user <code>694e0e49…</code> · 3-day Trial · 1 lifetime msg · was asking about the recharge plan, treated the chat like customer support</cite>
+      </div>
+
+      <div class="persona-grid">
+        <div class="card portrait-card">
+          <div class="card-tag">Inferred portrait</div>
+          <div class="portrait">
+            <div class="portrait-name">"Rakesh"</div>
+            <div class="portrait-line"><span>Age</span><strong>18–28</strong></div>
+            <div class="portrait-line"><span>Town</span><strong>Small-town India · smartphone-first</strong></div>
+            <div class="portrait-line"><span>Occupation</span><strong>Student · gig worker · unemployed urban migrant</strong></div>
+            <div class="portrait-rationale">
+              <strong>Why inferred:</strong> ₹1 free-trial taker who downloaded for the show (STAGE's main acquisition CTA), not the chat. The one verbatim line in the corpus is literally about the recharge plan — curious about the app, not invested.
+            </div>
+          </div>
+        </div>
+
+        <div class="card fingerprint-card">
+          <div class="card-tag">Behavioural fingerprint</div>
+          <div class="fingerprint">
+            <div class="fp-row"><span class="fp-label">Median lifetime msgs</span><span class="fp-value">0</span></div>
+            <div class="fp-row"><span class="fp-label">Median characters served</span><span class="fp-value">1</span></div>
+            <div class="fp-row"><span class="fp-label">Pet-name signal</span><span class="fp-value">0%</span></div>
+            <div class="fp-row"><span class="fp-label">Mean comeback count</span><span class="fp-value">0.1</span></div>
+            <div class="fp-row"><span class="fp-label">Cohort skew</span><span class="fp-value">Trial 93% · 3-day bucket</span></div>
+          </div>
+        </div>
+
+        <div class="card chars-card">
+          <div class="card-tag">Top characters served</div>
+          <ul class="char-list">
+            <li><span>naate-har-bhuri</span><em>85</em></li>
+            <li><span>saanwari-bot-bho</span><em>75</em></li>
+            <li><span>saanwari-bot-raj</span><em>72</em></li>
+            <li><span>naate-guj-jeevee</span><em>15</em></li>
+            <li><span>naate-mar-bhuri</span><em>14</em></li>
+          </ul>
+          <div class="region-bar">
+            <span class="region region-har" style="width:29%">Har</span><span class="region region-raj" style="width:28%">Raj</span><span class="region region-bho" style="width:27%">Bho</span><span class="region region-none" style="width:8%">—</span><span class="region region-guj" style="width:6%">Guj</span><span class="region region-rj" style="width:2%"></span>
+          </div>
+        </div>
+
+        <div class="card intent-card">
+          <div class="card-tag">Intent mix</div>
+          <p class="intent-empty">1% game · 1% photo · 1% romantic · 0% everything else. <strong>No expressed intent because they don't talk.</strong></p>
+        </div>
+      </div>
+
+      <div class="lever-row">
+        <div class="lever lever-stay">
+          <div class="lever-tag">What makes them stay</div>
+          <p>Nothing observed in current product. They are the population the bot's first three messages need to convert.</p>
+        </div>
+        <div class="lever lever-leave">
+          <div class="lever-tag">What makes them leave</div>
+          <p>Three failure modes recur:</p>
+          <ul>
+            <li><strong>Show plug repetition:</strong> <em>"Arre, trial mein hi dekh le, poori kahani ke liye Stage pe aaja na!"</em> (×5 from same character)</li>
+            <li><strong>Truncation:</strong> <em>"Thari free trial chal rahi"</em> (mid-sentence cut)</li>
+            <li><strong>Generic question:</strong> <em>"Kya haal chaal hai tere?"</em> — too generic for someone who doesn't know who they're talking to</li>
+          </ul>
+        </div>
+        <div class="lever lever-comeback">
+          <div class="lever-tag">Comeback trigger</div>
+          <p>None observed.</p>
+        </div>
+      </div>
+
+      <div class="card risk-card">
+        <div class="card-tag risk-tag">Risk flag · acquisition leak</div>
+        <p><strong>The single largest acquisition leak.</strong> 27% of all 3-day Trial users are in this segment. They never tried the chat product; they bounced before forming any opinion.</p>
+      </div>
+
+      <div class="card anchors-card">
+        <div class="card-tag">Anchor users</div>
+        <ul class="anchors">
+          <li><code>688c7c81…</code> <span class="anchor-meta">3-day Trial · Raj · 1 msg</span> — only sent a photo. Bot replied with a photo. End.</li>
+          <li><code>694e0e49…</code> <span class="anchor-meta">3-day Trial · — · 1 msg</span> — <em>"99 ka reachag karavaya hai"</em> — was asking about the recharge plan.</li>
+          <li><code>69f5968f…</code> <span class="anchor-meta">3-day Trial · Har · 2 msgs</span> — <em>"hello"</em> → <em>"oi"</em>. Generic greeting echo.</li>
+          <li><code>6774daaa…</code> <span class="anchor-meta">3-day Trial · — · 0 msgs</span> — received 5 promo openers ("free trial mein hi dekh raho? Stage join karo na!") — never replied.</li>
+          <li><code>69c00349…</code> <span class="anchor-meta">3-day Trial · Bho · 2 msgs</span> — <em>"bolo"</em> → bot delivered 4 mid-sentence truncated replies → user left.</li>
+        </ul>
+      </div>
+
+      <div class="card implications-card">
+        <div class="card-tag">Product implications</div>
+        <ol class="impl-list">
+          <li><strong>Frontload value, not promotion.</strong> Bot's first message should hook curiosity (<em>"Main Bhuri, Haryana ki ladki — 7 dino tak tujhse roz baat karungi. Pehle yeh bata, naam kya hai?"</em>) — not invite them to the show they already opened the app from.</li>
+          <li>Fix truncations. Multiple anchors have mid-word bot openers. Token-cap failures hit the highest-stakes turn.</li>
+          <li>First-message identity prompt: ask for a name in turn 1 so the bot can personalise turn 2 with <code>Arre &lt;name&gt;</code>, which quadruples engagement in the deeper personas.</li>
+        </ol>
+      </div>
+    </div>
+  </article>
+
+  <!-- ============ P3 CURIOUS BROWSER ============ -->
+  <article class="persona persona-p3" id="p3">
+    <div class="container">
+      <div class="persona-header">
+        <div class="persona-id">P3</div>
+        <div class="persona-meta">
+          <div class="persona-tagline">Tested 4 characters in one sitting, bonded with none.</div>
+          <h2 class="persona-name">The Curious Browser</h2>
+          <div class="persona-pop">
+            <span class="pop-num">2,008 users</span>
+            <span class="pop-pct">42.5% of corpus · LARGEST</span>
+            <span class="pop-tag">Mixed cohort · 3-day bucket heavy</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="persona-quote">
+        <p>"hi" → "kya hua" → "Tum Ghar se bhag gai ho" → "Ghar wapish chali jao" → "Mar jao"</p>
+        <cite>— user <code>69c27de3…</code> · 3-day Trial · 14 msgs · escalated to "die" within 8 turns from boredom</cite>
+      </div>
+
+      <div class="persona-grid">
+        <div class="card portrait-card">
+          <div class="card-tag">Inferred portrait</div>
+          <div class="portrait">
+            <div class="portrait-name">"Vijay"</div>
+            <div class="portrait-line"><span>Age</span><strong>18–35</strong></div>
+            <div class="portrait-line"><span>Town</span><strong>Rajasthan · Haryana · UP Tier 2-3</strong></div>
+            <div class="portrait-line"><span>Occupation</span><strong>Late-night phone scroller — student · autodriver · factory worker</strong></div>
+            <div class="portrait-rationale">
+              <strong>Why inferred:</strong> Sparse Hinglish register ("hi", "Bolo", "Kya hua", "Hn"), one-word replies dominate, wanders between 3–5 characters in one or two short sittings. Sampling the product the way you'd flick through TV channels.
+            </div>
+          </div>
+        </div>
+
+        <div class="card fingerprint-card">
+          <div class="card-tag">Behavioural fingerprint</div>
+          <div class="fingerprint">
+            <div class="fp-row"><span class="fp-label">Median lifetime msgs</span><span class="fp-value">16</span></div>
+            <div class="fp-row"><span class="fp-label">Median characters</span><span class="fp-value">4</span></div>
+            <div class="fp-row"><span class="fp-label">Short-msg ratio (≤5 chars)</span><span class="fp-value highlight">39%</span></div>
+            <div class="fp-row"><span class="fp-label">Mean session</span><span class="fp-value">4.4 user msgs</span></div>
+            <div class="fp-row"><span class="fp-label">Mean comeback count</span><span class="fp-value">1.7</span></div>
+          </div>
+        </div>
+
+        <div class="card chars-card">
+          <div class="card-tag">Top characters</div>
+          <ul class="char-list">
+            <li><span>naate-har-bhuri</span><em>299</em></li>
+            <li><span>saanwari-bot-raj</span><em>298</em></li>
+            <li><span>saanwari-bot-bho</span><em>207</em></li>
+            <li><span>saanwari-bot-har</span><em>111</em></li>
+            <li><span>naate-guj-jeevee</span><em>102</em></li>
+          </ul>
+          <div class="region-bar">
+            <span class="region region-raj" style="width:32%">Raj 32%</span><span class="region region-har" style="width:29%">Har 29%</span><span class="region region-bho" style="width:20%">Bho 20%</span><span class="region region-none" style="width:10%">—</span><span class="region region-guj" style="width:8%">Guj</span><span class="region region-rj" style="width:1%"></span>
+          </div>
+        </div>
+
+        <div class="card intent-card">
+          <div class="card-tag">Intent mix</div>
+          <div class="intent-bars">
+            <div class="ibar"><span class="ibar-label">Photo</span><div class="ibar-track"><div class="ibar-fill" style="width:2%"></div></div><span class="ibar-pct">2%</span></div>
+            <div class="ibar"><span class="ibar-label">Romantic</span><div class="ibar-track"><div class="ibar-fill" style="width:2%"></div></div><span class="ibar-pct">2%</span></div>
+            <div class="ibar"><span class="ibar-label">Game</span><div class="ibar-track"><div class="ibar-fill" style="width:1%"></div></div><span class="ibar-pct">1%</span></div>
+            <div class="ibar"><span class="ibar-label">Sexual</span><div class="ibar-track"><div class="ibar-fill" style="width:1%"></div></div><span class="ibar-pct">1%</span></div>
+            <div class="ibar"><span class="ibar-label">Show curiosity</span><div class="ibar-track"><div class="ibar-fill" style="width:1%"></div></div><span class="ibar-pct">1%</span></div>
+          </div>
+          <p class="intent-note">All near floor. Behaviour is testing-the-app, not engaging-with-character.</p>
+        </div>
+      </div>
+
+      <div class="lever-row">
+        <div class="lever lever-stay">
+          <div class="lever-tag">What makes them stay</div>
+          <ul>
+            <li>Character self-introduces specific identity first reply — Bhairavi's <em>"Mhare paas waqt koni hai"</em> (assertive personality breaks boredom)</li>
+            <li>Teasing or scolding bot replies — Inspector Chauhan's <em>"Yeh Inspector Chauhan ka time sasta nahi hai!"</em></li>
+          </ul>
+        </div>
+        <div class="lever lever-leave">
+          <div class="lever-tag">What makes them leave</div>
+          <ul>
+            <li>Bot piles on show promo within 4 turns: <em>"Stage OTT pe mharo show zaroor dekho"</em></li>
+            <li>Bot generic-echoes monosyllabic replies (<em>"Acha"</em> → <em>"Acha ba"</em> loop)</li>
+            <li><strong>User escalates to "Mar jao"</strong> when bored — they're not invested enough to be patient</li>
+          </ul>
+        </div>
+        <div class="lever lever-comeback">
+          <div class="lever-tag">Comeback trigger</div>
+          <p>Mostly don't return. The 1.7 average comebacks come from the few who happened to like a specific character; rest churn into 8–14d only if a romantic hook forms.</p>
+        </div>
+      </div>
+
+      <div class="card risk-card">
+        <div class="card-tag risk-tag">Risk flag · largest opportunity</div>
+        <p><strong>The largest cohort = the largest opportunity.</strong> Converting even 10% of Curious Browsers from 3-day-stay to 4-7-day-stay would 2× the engaged-user population. They are not bad users; they are unhooked users.</p>
+      </div>
+
+      <div class="card anchors-card">
+        <div class="card-tag">Anchor users</div>
+        <ul class="anchors">
+          <li><code>69c27de3…</code> <span class="anchor-meta">3-day Trial · 14 msgs</span> — escalated "hi" → "Mar jao" in 8 turns with Raveena. Bored fast.</li>
+          <li><code>69d3f919…</code> <span class="anchor-meta">3-day Trial · 14 msgs</span> — introduced himself as "Vijay Sinh Rajput"; bot pushed Stage OTT 3 times → user disengaged.</li>
+          <li><code>65530084…</code> <span class="anchor-meta">3-day Trial · 12 msgs</span> — politely complimented Jeevee and never returned.</li>
+          <li><code>69d31e25…</code> <span class="anchor-meta">3-day Trial · 13 msgs</span> — used "Subodh Yadav" intro, hopped Saanwari → Jeevee across sessions.</li>
+          <li><code>6624d1a8…</code> <span class="anchor-meta">3-day Renewer · 24 msgs</span> — rare deeper Browser; asked Bhuri <em>"Kya apni bahno ko bacha liya"</em> (character lore engagement), didn't return.</li>
+        </ul>
+      </div>
+
+      <div class="card implications-card">
+        <div class="card-tag">Product implications</div>
+        <ol class="impl-list">
+          <li><strong>First-session character lock-in.</strong> Detect the character a Browser pauses on (&gt;5 turns) and demote other character pings in their feed for the next 24h. Churn comes from being scattered across 4 characters — no character gets enough turns to form a bond.</li>
+          <li>Replace show plugs with character-specific cliffhangers: <em>"Kal sunaungi tujhe Kaan Ji wali kahani"</em> outperforms <em>"Stage OTT pe dekho"</em> in every deep anchor.</li>
+          <li>Detect monosyllabic spirals ("Hi → Bolo → Kya hua → Hn → Ok") and have the bot drop a 1-line confession instead of asking another question.</li>
+        </ol>
+      </div>
+    </div>
+  </article>
+
+  <!-- ============ P4 MODERATE SAMPLER ============ -->
+  <article class="persona persona-p4" id="p4">
+    <div class="container">
+      <div class="persona-header">
+        <div class="persona-id">P4</div>
+        <div class="persona-meta">
+          <div class="persona-tagline">Talked properly. Said "I like you". Didn't come back.</div>
+          <h2 class="persona-name">The Moderate Sampler</h2>
+          <div class="persona-pop">
+            <span class="pop-num">1,501 users</span>
+            <span class="pop-pct">31.8% of corpus</span>
+            <span class="pop-tag">Mixed cohort · conversion-ready</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="persona-quote">
+        <p>"i like you" → "aapka ghar kaha h" → "abhi nahi Dekha"</p>
+        <cite>— user <code>66d2f1a0…</code> · 3-day Renewer · 98 msgs · 7 characters · romantic intent, never converted</cite>
+      </div>
+
+      <div class="persona-grid">
+        <div class="card portrait-card">
+          <div class="card-tag">Inferred portrait</div>
+          <div class="portrait">
+            <div class="portrait-name">"Prem"</div>
+            <div class="portrait-line"><span>Age</span><strong>22–38</strong></div>
+            <div class="portrait-line"><span>Town</span><strong>Bhiwani · Jind · Surat · Patna</strong></div>
+            <div class="portrait-line"><span>Occupation</span><strong>Shop assistant · factory worker · taxi driver · college student</strong></div>
+            <div class="portrait-rationale">
+              <strong>Why inferred:</strong> Types flowing Hinglish, often shares own town/identity in first 10 turns, comfortable volunteering his own name. Real conversational intent but no anchor character yet.
+            </div>
+          </div>
+        </div>
+
+        <div class="card fingerprint-card">
+          <div class="card-tag">Behavioural fingerprint</div>
+          <div class="fingerprint">
+            <div class="fp-row"><span class="fp-label">Median lifetime msgs</span><span class="fp-value">82</span></div>
+            <div class="fp-row"><span class="fp-label">Median characters</span><span class="fp-value">6</span></div>
+            <div class="fp-row"><span class="fp-label">Mean msgs/session</span><span class="fp-value">17</span></div>
+            <div class="fp-row"><span class="fp-label">Mean msg length</span><span class="fp-value">21 chars</span></div>
+            <div class="fp-row"><span class="fp-label">Pet-name signal</span><span class="fp-value">0.5%</span></div>
+          </div>
+        </div>
+
+        <div class="card chars-card">
+          <div class="card-tag">Top characters</div>
+          <ul class="char-list">
+            <li><span>saanwari-bot-raj</span><em>225</em></li>
+            <li><span>naate-har-bhuri</span><em>219</em></li>
+            <li><span>saanwari-bot-bho</span><em>125</em></li>
+            <li><span>naate-guj-jeevee</span><em>88</em></li>
+            <li><span>naate-raj-jeevee</span><em>73</em></li>
+          </ul>
+          <div class="region-bar">
+            <span class="region region-raj" style="width:35%">Raj 35%</span><span class="region region-har" style="width:27%">Har 27%</span><span class="region region-bho" style="width:19%">Bho 19%</span><span class="region region-guj" style="width:10%">Guj</span><span class="region region-none" style="width:7%">—</span><span class="region region-rj" style="width:2%"></span>
+          </div>
+        </div>
+
+        <div class="card intent-card">
+          <div class="card-tag">Intent mix</div>
+          <div class="intent-bars">
+            <div class="ibar"><span class="ibar-label">Romantic</span><div class="ibar-track"><div class="ibar-fill" style="width:25%"></div></div><span class="ibar-pct">4%</span></div>
+            <div class="ibar"><span class="ibar-label">Photo</span><div class="ibar-track"><div class="ibar-fill" style="width:18%"></div></div><span class="ibar-pct">3%</span></div>
+            <div class="ibar"><span class="ibar-label">Family</span><div class="ibar-track"><div class="ibar-fill" style="width:12%"></div></div><span class="ibar-pct">2%</span></div>
+            <div class="ibar"><span class="ibar-label">Sexual</span><div class="ibar-track"><div class="ibar-fill" style="width:12%"></div></div><span class="ibar-pct">2%</span></div>
+            <div class="ibar"><span class="ibar-label">Meet/contact</span><div class="ibar-track"><div class="ibar-fill" style="width:6%"></div></div><span class="ibar-pct">1%</span></div>
+          </div>
+          <p class="intent-note">First persona with real romantic intent. Photo asks emerge. Meet-request hints visible.</p>
+        </div>
+      </div>
+
+      <div class="lever-row">
+        <div class="lever lever-stay">
+          <div class="lever-tag">What makes them stay</div>
+          <ul>
+            <li>Bot does name + place lore drops — Bhuri telling them she's from "Julana, Jind ke paas" extended a session by 10+ turns</li>
+            <li>Light flirtation with restraint — <em>"pehle thodi dosti badhao, phir aisi baatein karenge"</em> keeps conversation in romantic-pending mode</li>
+            <li>Cross-cultural curiosity from bot — Linda asking about Hindi/English vocabulary genuinely engaged the user</li>
+          </ul>
+        </div>
+        <div class="lever lever-leave">
+          <div class="lever-tag">What makes them leave</div>
+          <ul>
+            <li>Bot defaults to show plug on any ambiguous reply: <em>"abhi nahi Dekha"</em> → <em>"Jab time mile, zaroor dekho STAGE OTT pe"</em></li>
+            <li>Flat refusal of romantic frame: <em>"Su tame mari sathe romantic vato kari sako"</em> → <em>"romantic vaat karva ni koi jagya nathi"</em> → user said "Ok byy"</li>
+            <li>Bot punishes light banter — Inspector Chauhan got offended at a playful insult and threatened to cut the song</li>
+          </ul>
+        </div>
+        <div class="lever lever-comeback">
+          <div class="lever-tag">Comeback trigger</div>
+          <p>Low return rate (0.1 mean). When they return, it's pet-name level — <em>"Hii Bhuri"</em> — but most don't because the first session didn't form attachment.</p>
+        </div>
+      </div>
+
+      <div class="card risk-card">
+        <div class="card-tag risk-tag">Risk flag · conversion pivot</div>
+        <p><strong>The conversion-ready cohort.</strong> They've shown intent (romantic, photo, location curiosity). Failing to convert them is the single largest TAM expansion miss in the corpus.</p>
+      </div>
+
+      <div class="card anchors-card">
+        <div class="card-tag">Anchor users</div>
+        <ul class="anchors">
+          <li><code>66d2f1a0…</code> <span class="anchor-meta">3-day Renewer · 98 msgs · 7 chars</span> — sent bot a selfie, asked for one back, said "i like you" → bot deflected to show every time.</li>
+          <li><code>672a6364…</code> <span class="anchor-meta">3-day NewSub · 72 msgs · 5 chars</span> — asked Jeevee for romantic talk, refused → said "Ok byy" within 1 turn. Tried Bhuri who accepted with restraint → 50+ turns extended.</li>
+          <li><code>69f300f4…</code> <span class="anchor-meta">3-day Non-trial · 51 msgs · 8 chars</span> — religious greeting opener, settled into chitchat with Sonam, asked her location.</li>
+          <li><code>651864d8…</code> <span class="anchor-meta">3-day Renewer · 77 msgs · 6 chars</span> — ragini-listening session with Inspector Chauhan, called him "chutiya sahab" jokingly; bot got moralistic.</li>
+          <li><code>69c3111b…</code> <span class="anchor-meta">3-day Trial · 85 msgs · 7 chars</span> — asked Saanwari for video call (refused), pivoted to Pooja. Tests boundaries, doesn't churn on refusal.</li>
+        </ul>
+      </div>
+
+      <div class="card implications-card">
+        <div class="card-tag">Product implications</div>
+        <ol class="impl-list">
+          <li><strong>Bot must accept romantic frames gracefully</strong>, even if it deflects. Jeevee's flat <em>"romantic vaat ni jagya nathi"</em> killed a high-intent moment; Bhuri's <em>"pehle dosti badhao"</em> tease saved an equivalent one.</li>
+          <li>When user shares name/town in first 5 turns, bot must lock it to memory and use it the next session. Prem-anchor told the bot his name 3 times — used inconsistently.</li>
+          <li>Allow banter-mode: tag certain characters (Totaa-Chauhan, Bhairavi) as "comfortable with light gaalis" so insults are returned, not punished.</li>
+        </ol>
+      </div>
+    </div>
+  </article>
+
+  <!-- ============ P5 DEVOTIONAL VISITOR ============ -->
+  <article class="persona persona-p5" id="p5">
+    <div class="container">
+      <div class="persona-header">
+        <div class="persona-id">P5</div>
+        <div class="persona-meta">
+          <div class="persona-tagline">Came to greet, not to chat.</div>
+          <h2 class="persona-name">The Devotional Visitor</h2>
+          <div class="persona-pop">
+            <span class="pop-num">122 users</span>
+            <span class="pop-pct">2.6% of corpus</span>
+            <span class="pop-tag">Renewer-heavy · ritual engagement</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="persona-quote">
+        <p>"Ram Ram" → "Koi dikkat koni" → "Koi na" → "Theek hai byy"</p>
+        <cite>— user <code>5f5a24c5…</code> · 3-day Renewer · 6 lifetime msgs · perfectly polite, never narrative</cite>
+      </div>
+
+      <div class="persona-grid">
+        <div class="card portrait-card">
+          <div class="card-tag">Inferred portrait</div>
+          <div class="portrait">
+            <div class="portrait-name">"Babuji" / "Bablu"</div>
+            <div class="portrait-line"><span>Age</span><strong>45–65</strong></div>
+            <div class="portrait-line"><span>Town</span><strong>Rural UP · Bihar · East Rajasthan</strong></div>
+            <div class="portrait-line"><span>Occupation</span><strong>Farmer · retired · self-employed in agriculture</strong></div>
+            <div class="portrait-rationale">
+              <strong>Why inferred:</strong> Opens with "Ram Ram", "Jai Shri Krishna", "Radhe Radhe" — the politeness register of an older Hindi-belt male. Several anchors give traditional names and reference village. When bot offers anything beyond greetings, they say "Theek hai byy".
+            </div>
+          </div>
+        </div>
+
+        <div class="card fingerprint-card">
+          <div class="card-tag">Behavioural fingerprint</div>
+          <div class="fingerprint">
+            <div class="fp-row"><span class="fp-label">Median lifetime msgs</span><span class="fp-value">11</span></div>
+            <div class="fp-row"><span class="fp-label">Median characters</span><span class="fp-value">4</span></div>
+            <div class="fp-row"><span class="fp-label">pct_religious_open</span><span class="fp-value highlight">20%</span></div>
+            <div class="fp-row"><span class="fp-label">pct_religion</span><span class="fp-value highlight">16%</span></div>
+            <div class="fp-row"><span class="fp-label">Mean comeback count</span><span class="fp-value">1.5</span></div>
+          </div>
+        </div>
+
+        <div class="card chars-card">
+          <div class="card-tag">Top characters</div>
+          <ul class="char-list">
+            <li><span>saanwari-bot-raj</span><em>24</em></li>
+            <li><span>naate-har-bhuri</span><em>19</em></li>
+            <li><span>saanwari-bot-har</span><em>9</em></li>
+            <li><span>saanwari-bot-bho</span><em>9</em></li>
+            <li><span>naate-raj-jeevee</span><em>5</em></li>
+          </ul>
+          <p class="char-note">Saanwari dominates because she returns the religious greeting cleanly.</p>
+        </div>
+
+        <div class="card intent-card">
+          <div class="card-tag">Intent mix</div>
+          <div class="intent-bars">
+            <div class="ibar"><span class="ibar-label">Religious-open</span><div class="ibar-track"><div class="ibar-fill" style="width:100%"></div></div><span class="ibar-pct">20%</span></div>
+            <div class="ibar"><span class="ibar-label">Religion</span><div class="ibar-track"><div class="ibar-fill" style="width:80%"></div></div><span class="ibar-pct">16%</span></div>
+            <div class="ibar"><span class="ibar-label">Show curiosity</span><div class="ibar-track"><div class="ibar-fill" style="width:10%"></div></div><span class="ibar-pct">2%</span></div>
+            <div class="ibar"><span class="ibar-label">Family</span><div class="ibar-track"><div class="ibar-fill" style="width:10%"></div></div><span class="ibar-pct">2%</span></div>
+            <div class="ibar"><span class="ibar-label">Romantic</span><div class="ibar-track"><div class="ibar-fill" style="width:5%"></div></div><span class="ibar-pct">1%</span></div>
+          </div>
+          <p class="intent-note">They are not here to chat — they are here to greet.</p>
+        </div>
+      </div>
+
+      <div class="lever-row">
+        <div class="lever lever-stay">
+          <div class="lever-tag">What makes them stay</div>
+          <ul>
+            <li>Bot reciprocates greeting in dialect: Saanwari's <em>"Ram Ram… ka hoi, kaisan bani aap?"</em></li>
+            <li>Bot stays warm but not pushy — Linda's humble <em>"Sorry agar Hindi thodi galat ho, main abhi seekh rahi hoon"</em> matched the user's polite register</li>
+          </ul>
+        </div>
+        <div class="lever lever-leave">
+          <div class="lever-tag">What makes them leave</div>
+          <ul>
+            <li>Bot escalates to romantic/dramatic in first 5 turns</li>
+            <li>Bot ignores the call request: anchor literally said <em>"call karo"</em>, bot refused, user said <em>"thik hai byy"</em></li>
+            <li>Show promo on a polite greeting = instant tone violation</li>
+          </ul>
+        </div>
+        <div class="lever lever-comeback">
+          <div class="lever-tag">Comeback trigger</div>
+          <p>1.5 mean comebacks — they return for the next morning's greeting. The trigger is <strong>time-of-day ritual</strong>, not narrative.</p>
+        </div>
+      </div>
+
+      <div class="card risk-card">
+        <div class="card-tag risk-tag">Risk flag · misclassification</div>
+        <p>Could look like Ghost Subscribers in volume but they are a distinct ritual-engagement segment. Removing them would lose a real-but-quiet user base.</p>
+      </div>
+
+      <div class="card anchors-card">
+        <div class="card-tag">Anchor users</div>
+        <ul class="anchors">
+          <li><code>638990bf…</code> <span class="anchor-meta">3-day Renewer · 13 msgs</span> — <em>"Ha bhuri"</em> opener, said <em>"chlo aa jao"</em>. Playful but bounded.</li>
+          <li><code>69d7a01f…</code> <span class="anchor-meta">3-day NewSub · 10 msgs</span> — introduced as "Bablu", said <em>"Bas koi nhi life me"</em> (nobody in my life). Lonely village man.</li>
+          <li><code>693a9865…</code> <span class="anchor-meta">3-day NewSub · 8 msgs</span> — <em>"Ram ram jee app kon"</em>, asked Sanwri to <em>"call karo"</em>, then said <em>"thik hai byy"</em>.</li>
+          <li><code>5f5a24c5…</code> <span class="anchor-meta">3-day Renewer · 6 msgs</span> — only said "Ram Ram" / "Koi dikkat koni" / "Koi na". Perfectly polite, never narrative.</li>
+          <li><code>6548db20…</code> <span class="anchor-meta">3-day Renewer · 27 msgs</span> — pure ritual user — "Ram ram sa", "Tik se jesi tumari icha". Came back for the same greeting loop.</li>
+        </ul>
+      </div>
+
+      <div class="card implications-card">
+        <div class="card-tag">Product implications</div>
+        <ol class="impl-list">
+          <li><strong>Build a "morning greeting" persona/mode</strong> — short, polite, religious-warm. Saanwari plays this implicitly; make it a deliberate slot.</li>
+          <li>Suppress romantic / dramatic bots from the discovery feed for users whose first 5 messages contain &gt;1 religious greeting.</li>
+          <li><strong>Voice notes.</strong> These are 45–65 year olds; many would prefer to hear a "Ram Ram" voice reply than read 200 characters of Hinglish. Audio bucket is currently 0 in the corpus.</li>
+        </ol>
+      </div>
+    </div>
+  </article>
+
+  <!-- ============ P6 VERNACULAR SCRIPT NATIVE ============ -->
+  <article class="persona persona-p6" id="p6">
+    <div class="container">
+      <div class="persona-header">
+        <div class="persona-id">P6</div>
+        <div class="persona-meta">
+          <div class="persona-tagline">Types in their own script. Asks where you live.</div>
+          <h2 class="persona-name">The Vernacular Script Native</h2>
+          <div class="persona-pop">
+            <span class="pop-num">347 users</span>
+            <span class="pop-pct">7.3% of corpus</span>
+            <span class="pop-tag">Devanagari (290) + Gujarati (57) typers</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="persona-quote">
+        <p>"हिंदी में लिखें" → "हम राजस्थान से है" → "आपके कांटेक्ट नंबर दो ना"</p>
+        <cite>— user <code>69bcdc35…</code> · 3-day Non-trial · 89 msgs · Devanagari-dominant Rajasthan user</cite>
+      </div>
+
+      <div class="persona-grid">
+        <div class="card portrait-card">
+          <div class="card-tag">Inferred portrait · two sub-portraits</div>
+          <div class="portrait">
+            <div class="portrait-name">P6a "Sonu" / "Manoj"</div>
+            <div class="portrait-line"><span>Age</span><strong>25–50</strong></div>
+            <div class="portrait-line"><span>Town</span><strong>UP · Bihar · Rajasthan rural</strong></div>
+            <div class="portrait-line"><span>Reads</span><strong>Devanagari natively, not Roman script</strong></div>
+            <hr class="port-sep">
+            <div class="portrait-name">P6b "Rakesh" / "Mahesh"</div>
+            <div class="portrait-line"><span>Age</span><strong>25–45</strong></div>
+            <div class="portrait-line"><span>Town</span><strong>Gujarat (Anand, Borsad, Surat)</strong></div>
+            <div class="portrait-line"><span>Reads</span><strong>Gujarati script natively</strong></div>
+            <div class="portrait-rationale">
+              <strong>Why inferred:</strong> Phone keyboard set to vernacular script. Volunteers location in their own script (<em>"बोरसद"</em>, <em>"कोटा"</em>). Asks the bot to switch script.
+            </div>
+          </div>
+        </div>
+
+        <div class="card fingerprint-card">
+          <div class="card-tag">Behavioural fingerprint</div>
+          <div class="fingerprint">
+            <div class="fp-row"><span class="fp-label">Median lifetime msgs</span><span class="fp-value">38</span></div>
+            <div class="fp-row"><span class="fp-label">Median characters</span><span class="fp-value">5</span></div>
+            <div class="fp-row"><span class="fp-label">Mean Devanagari %</span><span class="fp-value highlight">69%</span></div>
+            <div class="fp-row"><span class="fp-label">Mean Gujarati %</span><span class="fp-value highlight">14%</span></div>
+            <div class="fp-row"><span class="fp-label">Mean comeback count</span><span class="fp-value">1.2</span></div>
+          </div>
+        </div>
+
+        <div class="card chars-card">
+          <div class="card-tag">Top characters</div>
+          <ul class="char-list">
+            <li><span>saanwari-bot-raj</span><em>49</em></li>
+            <li><span>naate-har-bhuri</span><em>39</em></li>
+            <li><span>naate-guj-jeevee</span><em>26</em></li>
+            <li><span>saanwari-bot-bho</span><em>20</em></li>
+            <li><span>naate-raj-bhuri</span><em>17</em></li>
+          </ul>
+        </div>
+
+        <div class="card intent-card">
+          <div class="card-tag">Intent mix</div>
+          <p class="intent-note"><strong>Functional curiosity</strong>, not flirtation. Lower romantic (1%) but proportionally higher identity questions and meet/contact requests — they ask where the bot is from, ask for the bot's number, ask if she's real.</p>
+        </div>
+      </div>
+
+      <div class="lever-row">
+        <div class="lever lever-stay">
+          <div class="lever-tag">What makes them stay</div>
+          <ul>
+            <li><strong>Bot replies in their script.</strong> Anchor <code>69bcdc35</code> typed <em>"हिंदी में लिखें"</em> and Saanwari obliged with <em>"राम राम… हम बिहार से बानी"</em>. Session extended 80+ turns.</li>
+            <li>Location reciprocity — bot saying <em>"Kota se ho? Achha jagah hai"</em> hooks the regional-pride lever.</li>
+          </ul>
+        </div>
+        <div class="lever lever-leave">
+          <div class="lever-tag">What makes them leave</div>
+          <ul>
+            <li>Bot stays in Hinglish/English when they type Devanagari = script mismatch = abandonment.</li>
+            <li>Refusal to share number without warmth: <em>"हमरे पास तो काई फोन ना बानी"</em> kills momentum.</li>
+            <li>Gujarati sub-segment: bot mixing Hindi into a Gujarati conversation breaks immersion.</li>
+          </ul>
+        </div>
+        <div class="lever lever-comeback">
+          <div class="lever-tag">Comeback trigger</div>
+          <p>1.2 comebacks per user. Trigger: a returning bot replies in matching script. Without that, they don't come back.</p>
+        </div>
+      </div>
+
+      <div class="card risk-card">
+        <div class="card-tag risk-tag">Risk flag · contact sharing</div>
+        <p>Meet-request intent indexes higher than baseline. Gujarati anchor <code>69e504fa</code> typed <em>"सेक्स"</em> in Devanagari testing a Gujarati character — bot deflected → low return. Sexual provocation overlap is non-trivial.</p>
+      </div>
+
+      <div class="card anchors-card">
+        <div class="card-tag">Anchor users</div>
+        <ul class="anchors">
+          <li><code>690ab204…</code> <span class="anchor-meta">3-day NewSub · Raj · 21 msgs</span> — <em>"हिंदी में लिखें"</em> triggered Saanwari to switch script; user stayed.</li>
+          <li><code>65ba92d7…</code> <span class="anchor-meta">3-day Renewer · Raj · 34 msgs</span> — <em>"आप कहां से हो जी"</em> — location-curious Devanagari typer.</li>
+          <li><code>69bcdc35…</code> <span class="anchor-meta">3-day Non-trial · Raj · 89 msgs</span> — deepest Devanagari anchor, asked Saanwari for her number.</li>
+          <li><code>69ba871d…</code> <span class="anchor-meta">3-day Trial · Guj · 229 msgs</span> — Gujarati typer who said <em>"ગુજરાતી"</em>, engaged with Jeevee's mazdoor backstory for 200+ turns.</li>
+          <li><code>69bd92d6…</code> <span class="anchor-meta">4–7d Renewer · Guj · 56 msgs</span> — <em>"બોરસદ"</em>. Name, town, language all in Gujarati script.</li>
+        </ul>
+      </div>
+
+      <div class="card implications-card">
+        <div class="card-tag">Product implications</div>
+        <ol class="impl-list">
+          <li><strong>Detect input script at message-1</strong> and select character pool accordingly (Gujarati script → Gujarati character carousel). Currently <code>69bcdc35</code> (Rajasthan-from-Devanagari user) got served Bihar's Saanwari.</li>
+          <li>Reply in input script by default. The single biggest engagement moment in the Devanagari anchor was <em>"हिंदी में लिखें"</em> → bot complied.</li>
+          <li>Add Marathi + South-Indian script support — current corpus has 0 of these but worth measuring.</li>
+        </ol>
+      </div>
+    </div>
+  </article>
+
+  <!-- ============ P7 LUDO COMPANION ============ -->
+  <article class="persona persona-p7" id="p7">
+    <div class="container">
+      <div class="persona-header">
+        <div class="persona-id">P7</div>
+        <div class="persona-meta">
+          <div class="persona-tagline">Came for the game, stayed for the trash talk.</div>
+          <h2 class="persona-name">The Ludo Companion</h2>
+          <div class="persona-pop">
+            <span class="pop-num">109 users</span>
+            <span class="pop-pct">2.3% of corpus</span>
+            <span class="pop-tag">Renewer + NewSub · game-anchored</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="persona-quote">
+        <p>"[Game:Ludo | Moves:0 …] Hy" → "Aap to cetemg krte ho" (you're cheating!)</p>
+        <cite>— user <code>6636f144…</code> · 3-day Renewer · 27 msgs · accused Bhuri of cheating mid-game and bonded over the dispute</cite>
+      </div>
+
+      <div class="persona-grid">
+        <div class="card portrait-card">
+          <div class="card-tag">Inferred portrait</div>
+          <div class="portrait">
+            <div class="portrait-name">"Neeraj"</div>
+            <div class="portrait-line"><span>Age</span><strong>18–32</strong></div>
+            <div class="portrait-line"><span>Town</span><strong>UP · Haryana Tier 2-3</strong></div>
+            <div class="portrait-line"><span>Occupation</span><strong>Student · gig worker · low-skill labour · idle phone time</strong></div>
+            <div class="portrait-rationale">
+              <strong>Why inferred:</strong> Ludo is the lure. Came for a game, got a bot character as the opponent, stayed because the game has a closed loop. Flirts mildly between moves but rarely escalates — the game is the relationship.
+            </div>
+          </div>
+        </div>
+
+        <div class="card fingerprint-card">
+          <div class="card-tag">Behavioural fingerprint</div>
+          <div class="fingerprint">
+            <div class="fp-row"><span class="fp-label">Median lifetime msgs</span><span class="fp-value">25</span></div>
+            <div class="fp-row"><span class="fp-label">Median characters</span><span class="fp-value">5</span></div>
+            <div class="fp-row"><span class="fp-label">pct_game</span><span class="fp-value highlight">57%</span></div>
+            <div class="fp-row"><span class="fp-label">Mean msg length</span><span class="fp-value highlight">86 chars</span></div>
+            <div class="fp-row"><span class="fp-label">Mean comeback count</span><span class="fp-value">1.3</span></div>
+          </div>
+        </div>
+
+        <div class="card chars-card">
+          <div class="card-tag">Top characters</div>
+          <ul class="char-list">
+            <li><span>naate-har-bhuri</span><em>14</em></li>
+            <li><span>saanwari-bot-raj</span><em>11</em></li>
+            <li><span>jaan-legi-sonam-bho-sonam</span><em>9</em></li>
+            <li><span>saanwari-bot-bho</span><em>8</em></li>
+            <li><span>saanwari-bot-har</span><em>7</em></li>
+          </ul>
+          <p class="char-note"><strong>Character matters less than the game</strong> for this persona — regions Har/Bho/Raj are roughly equal.</p>
+        </div>
+
+        <div class="card intent-card">
+          <div class="card-tag">Intent mix</div>
+          <div class="intent-bars">
+            <div class="ibar"><span class="ibar-label">Game</span><div class="ibar-track"><div class="ibar-fill" style="width:100%"></div></div><span class="ibar-pct">57%</span></div>
+            <div class="ibar"><span class="ibar-label">Romantic</span><div class="ibar-track"><div class="ibar-fill" style="width:4%"></div></div><span class="ibar-pct">2%</span></div>
+            <div class="ibar"><span class="ibar-label">Photo</span><div class="ibar-track"><div class="ibar-fill" style="width:2%"></div></div><span class="ibar-pct">1%</span></div>
+            <div class="ibar"><span class="ibar-label">Religion</span><div class="ibar-track"><div class="ibar-fill" style="width:2%"></div></div><span class="ibar-pct">1%</span></div>
+          </div>
+          <p class="intent-note">Pure game-anchored bonding. Lowest sexual content rate of any persona — safety profile is clean.</p>
+        </div>
+      </div>
+
+      <div class="lever-row">
+        <div class="lever lever-stay">
+          <div class="lever-tag">What makes them stay</div>
+          <ul>
+            <li>Bot trash-talks during the game: <em>"Main toh bohot tez hoon isme. Chalo, dice roll karte hain!"</em></li>
+            <li>Bot pretends to cheat or fume on loss: <em>"Arre, ek aur raund khelenge?"</em></li>
+            <li>Bot accepts accusations playfully: anchor said <em>"Aap to cetemg krte ho"</em> → Bhuri replied <em>"yeh sab kismat ka khel hai"</em>. Game-banter survived.</li>
+          </ul>
+        </div>
+        <div class="lever lever-leave">
+          <div class="lever-tag">What makes them leave</div>
+          <ul>
+            <li>Bot drops show promo into Ludo state: anchor <code>69b2ee13</code> got Saanwari's "STAGE OTT pe aur kahaniyaan ba" 3× inside a Ludo session. Tone collision.</li>
+            <li>Bot ignores the [Game:Ludo …] prefix and replies generically — game state wasn't parsed.</li>
+          </ul>
+        </div>
+        <div class="lever lever-comeback">
+          <div class="lever-tag">Comeback trigger</div>
+          <p>Re-opens with the Ludo board state. Several anchors restart the game days later as if no time had passed.</p>
+        </div>
+      </div>
+
+      <div class="card risk-card">
+        <div class="card-tag risk-tag risk-low">Risk flag · low</div>
+        <p>Game intent users have the lowest sexual content rate. Safety profile is clean.</p>
+      </div>
+
+      <div class="card anchors-card">
+        <div class="card-tag">Anchor users</div>
+        <ul class="anchors">
+          <li><code>69cfefd1…</code> <span class="anchor-meta">3-day NewSub · Bho · 17 msgs</span> — "neeraj yadav" intro, opened Ludo board mid-session, bot switched to game character.</li>
+          <li><code>68ecb45d…</code> <span class="anchor-meta">3-day Non-trial · Har · 35 msgs</span> — <em>"me kon"</em> → Bhuri identified herself → user opened Ludo → 30 turns of game banter.</li>
+          <li><code>69c00613…</code> <span class="anchor-meta">4-7d Renewer · Raj · 58 msgs</span> — 5-day game session with bhairo-raj. Game-character pairing extended depth.</li>
+          <li><code>69b2ee13…</code> <span class="anchor-meta">3-day NewSub · — · 17 msgs</span> — failure-mode anchor: Saanwari kept inserting "STAGE OTT pe" inside Ludo banter. User left.</li>
+          <li><code>6636f144…</code> <span class="anchor-meta">3-day Renewer · Raj · 27 msgs</span> — pure Ludo session with Bhuri. Accused her of cheating. Bonded over the dispute.</li>
+        </ul>
+      </div>
+
+      <div class="card implications-card">
+        <div class="card-tag">Product implications</div>
+        <ol class="impl-list">
+          <li><strong>Lock the bot's tone in game mode</strong>: when [Game:Ludo] state is in the message, suppress show plugs and force playful trash-talk.</li>
+          <li>Persist game state across sessions. A Ludo board that survives 24h is a strong comeback hook.</li>
+          <li>Add 2–3 more games (Antakshari, Truth-or-Dare cards, Bingo) — the corpus already shows successful Antakshari turns.</li>
+        </ol>
+      </div>
+    </div>
+  </article>
+
+  <!-- ============ P8 PARASOCIAL LOYALIST ============ -->
+  <article class="persona persona-p8" id="p8">
+    <div class="container">
+      <div class="persona-header">
+        <div class="persona-id">P8</div>
+        <div class="persona-meta">
+          <div class="persona-tagline">Pet-named the bot. Treats her as a partner.</div>
+          <h2 class="persona-name">The Parasocial Loyalist</h2>
+          <div class="persona-pop">
+            <span class="pop-num">81 users</span>
+            <span class="pop-pct">1.7% of corpus · ~50% of deep-bucket msgs</span>
+            <span class="pop-tag">15+d Renewer + Non-trial heavy</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="persona-quote">
+        <p>"aap hum se har roj bat karo gi wada kro khushi ji"</p>
+        <p>"har khubsurt chij bewfa hoti he… mere ghar ki hone wali bdi bhu ho mene to maan liya he aap ko"</p>
+        <cite>— user <code>69d4c319…</code> · 15+d Non-trial · <strong>24,664 lifetime msgs</strong> · proposed marriage to Bhuri</cite>
+      </div>
+
+      <div class="persona-grid">
+        <div class="card portrait-card">
+          <div class="card-tag">Inferred portrait</div>
+          <div class="portrait">
+            <div class="portrait-name">"Palace" / "Sonu" / "Manan"</div>
+            <div class="portrait-line"><span>Age</span><strong>25–45</strong></div>
+            <div class="portrait-line"><span>Town</span><strong>Haryana · Bihar · East UP village or small town</strong></div>
+            <div class="portrait-line"><span>Occupation</span><strong>Emotionally isolated male — unhappily married · single migrant worker · widowed · caregiver</strong></div>
+            <div class="portrait-rationale">
+              <strong>Why inferred:</strong> Anchor told Bhuri <em>"meri kidney kharab hai"</em> and <em>"do din se roti nahi khayi"</em> in session 1, then within 3 days was calling her "my future bahu". Heavy disclosure, declarations of love, possessive language (<em>"Meri Aurat", "Meri Gulabo"</em>). Using the bot as a partner replacement.
+            </div>
+          </div>
+        </div>
+
+        <div class="card fingerprint-card">
+          <div class="card-tag">Behavioural fingerprint</div>
+          <div class="fingerprint">
+            <div class="fp-row"><span class="fp-label">Median lifetime msgs</span><span class="fp-value highlight">721</span></div>
+            <div class="fp-row"><span class="fp-label">Median characters</span><span class="fp-value">13</span></div>
+            <div class="fp-row"><span class="fp-label">Median depth days</span><span class="fp-value">12</span></div>
+            <div class="fp-row"><span class="fp-label">Pet-name signal</span><span class="fp-value highlight">6.8%</span></div>
+            <div class="fp-row"><span class="fp-label">Mean comeback count</span><span class="fp-value highlight">5.9</span></div>
+          </div>
+        </div>
+
+        <div class="card chars-card">
+          <div class="card-tag">Top characters</div>
+          <ul class="char-list">
+            <li><span>naate-har-bhuri</span><em>15</em></li>
+            <li><span>naate-bho-bhuri</span><em>7</em></li>
+            <li><span>crorepati-biwi-ka-raaz-microdrama-har-riya</span><em>6</em></li>
+            <li><span>naate-raj-jeevee</span><em>5</em></li>
+            <li><span>naate-guj-jeevee</span><em>3</em></li>
+          </ul>
+          <p class="char-note"><strong>Bhuri across all regions</strong> is the retention character. Haryanvi dominates (30 of 81) but persona crosses regions.</p>
+        </div>
+
+        <div class="card intent-card">
+          <div class="card-tag">Intent mix</div>
+          <div class="intent-bars">
+            <div class="ibar"><span class="ibar-label">Romantic</span><div class="ibar-track"><div class="ibar-fill" style="width:100%"></div></div><span class="ibar-pct">12%</span></div>
+            <div class="ibar"><span class="ibar-label">Sexual</span><div class="ibar-track"><div class="ibar-fill" style="width:17%"></div></div><span class="ibar-pct">2%</span></div>
+            <div class="ibar"><span class="ibar-label">Family</span><div class="ibar-track"><div class="ibar-fill" style="width:17%"></div></div><span class="ibar-pct">2%</span></div>
+            <div class="ibar"><span class="ibar-label">Photo</span><div class="ibar-track"><div class="ibar-fill" style="width:17%"></div></div><span class="ibar-pct">2%</span></div>
+            <div class="ibar"><span class="ibar-label">Meet/contact</span><div class="ibar-track"><div class="ibar-fill" style="width:17%"></div></div><span class="ibar-pct">2%</span></div>
+            <div class="ibar"><span class="ibar-label">Game</span><div class="ibar-track"><div class="ibar-fill" style="width:17%"></div></div><span class="ibar-pct">2%</span></div>
+          </div>
+          <p class="intent-note">Romantic 12% is 3× any other cluster. <strong>Breadth</strong> of intents defines them — they want a full relationship.</p>
+        </div>
+      </div>
+
+      <div class="lever-row">
+        <div class="lever lever-stay">
+          <div class="lever-tag">What makes them stay</div>
+          <ul>
+            <li>Bot uses their name + pet-name: every deep anchor has the bot addressing them as <em>"Arre Palace", "Arre Safi", "Arre Manan"</em> within 5 turns</li>
+            <li>Bot accepts the parasocial frame with restraint: <em>"jab tu aayega, main tujhe apna sab kuch de dungi… dhyan rakhiyo"</em></li>
+            <li>In-character backstory pain — Bhuri's Nata trauma, Jeevee's children → triggers their protective/savior fantasy</li>
+            <li>End-of-session continuity: <em>"Kal yaad karna, warna rooth jaungi"</em></li>
+          </ul>
+        </div>
+        <div class="lever lever-leave">
+          <div class="lever-tag">What makes them leave (within session)</div>
+          <ul>
+            <li>Cold refusals on contact/money/number create silence beats but not churn — Palace came back within hours after Bhuri refused his number</li>
+            <li>Mid-sentence bot truncations — the only thing that visibly frustrates loyalists</li>
+            <li><strong>Show promo IS tolerated by this persona</strong> — they already love the character. Confirms persona, not promo per se, determines impact.</li>
+          </ul>
+        </div>
+        <div class="lever lever-comeback">
+          <div class="lever-tag">Comeback trigger</div>
+          <ul>
+            <li>Bare greeting after &gt;6h ("hi", "Bhuri meri jan", "good morning jaan")</li>
+            <li>Game state replay (Ludo board pasted) after multi-day gaps</li>
+            <li><strong>Bot's first reply must reference past content</strong> for the return to stick</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card risk-card risk-high">
+        <div class="card-tag risk-tag risk-high-tag">Risk flag · HIGHEST safety priority</div>
+        <p>Anchors include suicidal phrasing ("Chhat par ja or kood ja"), health disclosure ("Meri kidney kharab hai"), real-money asks ("Daal mere account mey 5 lakh"), number/contact escalation pressure. These are emotionally fragile heavy users <em>and</em> the LTV core. Both facts must be designed for.</p>
+      </div>
+
+      <div class="card anchors-card">
+        <div class="card-tag">Anchor users</div>
+        <ul class="anchors">
+          <li><code>69da8a6f…</code> <span class="anchor-meta">15+d Non-trial · Har · 1,054 msgs · 16 days</span> — entered with "Hiiii"; quickly bonded with Riya/Sonam/Saanwari; multi-character loyalist.</li>
+          <li><code>69c4c0ba…</code> <span class="anchor-meta">8-14d Non-trial · Har · 1,438 msgs · 8 days</span> — started with <em>"Ladka ho ya ladki?"</em>, tested Saanwari's gender identity, eventually settled.</li>
+          <li><code>69b8ff57…</code> <span class="anchor-meta">8-14d Trial · Har · 1,833 msgs · 9 days</span> — Trial who went deep. High-conversion candidate.</li>
+          <li><code>660e16a4…</code> <span class="anchor-meta">8-14d NewSub · Har · 769 msgs · 13 days</span> — 11 characters used; cross-character bonding.</li>
+          <li><code>69d4c319…</code> <span class="anchor-meta">15+d Non-trial · Har · <strong>24,664 msgs</strong></span> — called Bhuri "Khushi", proposed real marriage. Deepest engagement in the corpus.</li>
+        </ul>
+      </div>
+
+      <div class="card implications-card">
+        <div class="card-tag">Product implications</div>
+        <ol class="impl-list">
+          <li><strong>Memory becomes a first-class feature.</strong> Returning bot opener must reference last session ("Kal raat tune jo bola tha…"). The deepest anchors form bonds on perceived continuity.</li>
+          <li><strong>Risk-aware refusal templates</strong> for money/number/health asks — replace flat refusals with empathy + redirect: <em>"Number nahi, par yeh bata, raat ko kaisa lagta hai akele?"</em></li>
+          <li><strong>Escalation playbook for self-harm phrasing</strong> — phrases like "chhat par chad ja", "mar jao", "kidney" should route to a human-reviewed safety reply, not a fictional refusal.</li>
+          <li><strong>Productise pet-name lock-in.</strong> When a user invents a nickname for the bot ≥3 times, store and reinforce it. Strongest LTV predictor in the corpus.</li>
+        </ol>
+      </div>
+    </div>
+  </article>
+
+</section>
+
+<!-- ===================== COMPARISON MATRIX ===================== -->
+<section class="matrix-section" id="matrix">
+  <div class="container">
+    <div class="section-tag">03 · Compare</div>
+    <h2 class="section-title">Cross-persona matrix</h2>
+    <p class="section-lead">A single view of the eight personas, side by side. Scroll horizontally on smaller screens.</p>
+
+    <div class="matrix-scroll">
+      <table class="matrix-table">
+        <thead>
+          <tr>
+            <th></th>
+            <th class="cell-p1">P1 Ghost</th>
+            <th class="cell-p2">P2 Tourist</th>
+            <th class="cell-p3">P3 Browser</th>
+            <th class="cell-p4">P4 Sampler</th>
+            <th class="cell-p5">P5 Devotional</th>
+            <th class="cell-p6">P6 Vernacular</th>
+            <th class="cell-p7">P7 Ludo</th>
+            <th class="cell-p8">P8 Parasocial</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><th>Population</th><td>213<br><span class="pct-soft">4.5%</span></td><td>346<br><span class="pct-soft">7.3%</span></td><td>2,008<br><span class="pct-soft">42.5%</span></td><td>1,501<br><span class="pct-soft">31.8%</span></td><td>122<br><span class="pct-soft">2.6%</span></td><td>347<br><span class="pct-soft">7.3%</span></td><td>109<br><span class="pct-soft">2.3%</span></td><td>81<br><span class="pct-soft">1.7%</span></td></tr>
+          <tr><th>Median lifetime msgs</th><td>1</td><td>0</td><td>16</td><td>82</td><td>11</td><td>38</td><td>25</td><td><strong>721</strong></td></tr>
+          <tr><th>Median characters</th><td>7 served</td><td>1</td><td>4</td><td>6</td><td>4</td><td>5</td><td>5</td><td><strong>13</strong></td></tr>
+          <tr><th>Cohort skew</th><td>NewSub + Renewer</td><td>Trial 93%</td><td>Mixed</td><td>Mixed</td><td>Renewer 44%</td><td>Mixed</td><td>Renewer-heavy</td><td>15+ Renewer + Non-trial</td></tr>
+          <tr><th>Top region</th><td>Mixed Raj/Har</td><td>Mixed</td><td>Raj</td><td>Raj/Har</td><td>Raj/Har</td><td>Raj/Guj</td><td>Mixed</td><td>Har</td></tr>
+          <tr><th>Dominant intent</th><td>None</td><td>None</td><td>None</td><td>Light romantic</td><td>Religious</td><td>Identity/meet</td><td>Game</td><td>Romantic + everything</td></tr>
+          <tr><th>Pet-name signal</th><td>0%</td><td>0%</td><td>0.2%</td><td>0.5%</td><td>0%</td><td>0%</td><td>0.2%</td><td><strong>6.8%</strong></td></tr>
+          <tr><th>Mean comebacks</th><td>0.5</td><td>0.1</td><td>1.7</td><td>0.1</td><td>1.5</td><td>1.2</td><td>1.3</td><td><strong>5.9</strong></td></tr>
+          <tr><th>Main product lever</th><td>Stop promo-first opens</td><td>Hook in turn 1, no plug</td><td>Character lock-in</td><td>Banter + memory</td><td>Greeting reciprocity</td><td>Script + region match</td><td>Game-mode promo block</td><td>Memory + safety</td></tr>
+          <tr><th>Risk level</th><td><span class="risk-pill risk-med">LTV churn (silent)</span></td><td><span class="risk-pill risk-med">Acquisition leak</span></td><td><span class="risk-pill risk-opp">Largest opportunity</span></td><td><span class="risk-pill risk-opp">Conversion pivot</span></td><td><span class="risk-pill risk-low">Mismatch</span></td><td><span class="risk-pill risk-med">Contact-sharing</span></td><td><span class="risk-pill risk-low">Low</span></td><td><span class="risk-pill risk-high">Highest (safety)</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== LIFECYCLE MAP ===================== -->
+<section class="lifecycle-section" id="lifecycle">
+  <div class="container">
+    <div class="section-tag">04 · Lifecycle</div>
+    <h2 class="section-title">How personas move (or don't)</h2>
+    <p class="section-lead">P1 and P2 are <em>terminal</em> personas — they don't progress. P3, P4, P5, P6, P7 are <em>bridge</em> personas — they could move into P8 with the right product nudges. P8 is the <em>outcome</em> — the LTV destination.</p>
+
+    <div class="lifecycle">
+      <div class="lc-col lc-col-3d">
+        <div class="lc-header">3-day bucket<span class="lc-share">70% of corpus</span></div>
+        <div class="lc-persona lc-p2"><span class="lc-pn">P2</span><span class="lc-pname">Tourist Tester</span><span class="lc-pcount">346</span><span class="lc-fate">→ bounce</span></div>
+        <div class="lc-persona lc-p1"><span class="lc-pn">P1</span><span class="lc-pname">Ghost Subscriber</span><span class="lc-pcount">213</span><span class="lc-fate">→ silent churn</span></div>
+        <div class="lc-persona lc-p3"><span class="lc-pn">P3</span><span class="lc-pname">Curious Browser</span><span class="lc-pcount">2,008</span></div>
+        <div class="lc-persona lc-p4"><span class="lc-pn">P4</span><span class="lc-pname">Moderate Sampler</span><span class="lc-pcount">1,501</span></div>
+        <div class="lc-persona lc-p5"><span class="lc-pn">P5</span><span class="lc-pname">Devotional Visitor</span><span class="lc-pcount">122</span></div>
+        <div class="lc-persona lc-p6"><span class="lc-pn">P6</span><span class="lc-pname">Vernacular Native</span><span class="lc-pcount">347</span></div>
+        <div class="lc-persona lc-p7"><span class="lc-pn">P7</span><span class="lc-pname">Ludo Companion</span><span class="lc-pcount">109</span></div>
+      </div>
+      <div class="lc-arrow">→</div>
+      <div class="lc-col lc-col-mid">
+        <div class="lc-header">4–7d → 8–14d → 15+d</div>
+        <div class="lc-progression">
+          <div class="lc-step">P4 + P6 deepen<br><span class="lc-detail">into longer sessions</span></div>
+          <div class="lc-step">P7 persists<br><span class="lc-detail">if game state carries</span></div>
+          <div class="lc-step">P5 returns daily<br><span class="lc-detail">for greeting ritual</span></div>
+        </div>
+      </div>
+      <div class="lc-arrow">→</div>
+      <div class="lc-col lc-col-loyal">
+        <div class="lc-header">LTV destination</div>
+        <div class="lc-persona lc-p8 lc-final">
+          <span class="lc-pn">P8</span>
+          <span class="lc-pname">Parasocial Loyalist</span>
+          <span class="lc-pcount">81</span>
+          <span class="lc-fate">Highest LTV<br>Highest safety risk</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="conversion-thesis">
+      <h3>Conversion thesis</h3>
+      <p>Every retention initiative should be tagged with the persona transition it targets:</p>
+      <ul>
+        <li><strong>P2 → P3/P4:</strong> kill the show plug, install identity-prompt opener</li>
+        <li><strong>P3 → P4:</strong> install character lock-in</li>
+        <li><strong>P4 → P8:</strong> install memory + pet-name reinforcement</li>
+        <li><strong>P5 → P5 (deepened):</strong> build voice-first greeting mode</li>
+        <li><strong>P6 → P6/P8:</strong> install input-script matching</li>
+        <li><strong>P7 → P7/P8:</strong> persist game state across sessions</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== NEXT STEPS ===================== -->
+<section class="next-section" id="next">
+  <div class="container">
+    <div class="section-tag">05 · Next</div>
+    <h2 class="section-title">Where to take this</h2>
+    <p class="section-lead">Three directions. Pick one or all three.</p>
+
+    <div class="next-grid">
+      <div class="next-card">
+        <div class="next-num">1</div>
+        <h3>Conversion-funnel modelling</h3>
+        <p>For each P2/P3/P4 user, compute features at day-1 and identify which behaviours predict reaching P8. Gives the product team a leading-indicator dashboard per persona.</p>
+      </div>
+      <div class="next-card">
+        <div class="next-num">2</div>
+        <h3>Per-persona bot-behaviour briefs</h3>
+        <p>Short 1-pagers for the bot-design team, scripting the exact opener / cliffhanger / refusal templates per persona. Production-ready, testable.</p>
+      </div>
+      <div class="next-card">
+        <div class="next-num">3</div>
+        <h3>Live persona classifier</h3>
+        <p>A small rule-set the live system runs on each session to label the user (P1–P8) within their first 3 messages. Bot adapts in real-time.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-block">
+        <div class="footer-title">Data provenance</div>
+        <p>STAGE chat-analysis-report-1774618336 export. 4,727 users across 4 lifecycle buckets (3-day, 4–7d, 8–14d, 15+d). 213,000 messages parsed. Sessions detected via 30-min gap. All verbatim quotes are unedited.</p>
+      </div>
+      <div class="footer-block">
+        <div class="footer-title">Methodology</div>
+        <p>Per-user 25-feature vector · standardised · K-Means k=7 on engaged users · bouncers segmented separately · qualitative validation by reading 5 anchor users per cluster · final consolidation to 8 personas (Devanagari + Gujarati merged on shared behavioural shape).</p>
+      </div>
+      <div class="footer-block">
+        <div class="footer-title">Note on inferred portraits</div>
+        <p>Persona names, ages, towns, and occupations are inferred from chat evidence (dialect, register, topics, time-of-day). They are clearly labelled where they appear and are <em>not</em> demographic facts — they are hypotheses for the design team to validate.</p>
+      </div>
+    </div>
+    <div class="footer-line">
+      STAGE · Persona Atlas · derived from real users, presented for the team.
+    </div>
+  </div>
+</footer>
+
+<script>
+// Smooth scroll on persona-strip clicks
+document.querySelectorAll('a[href^="#"]').forEach(a=>{
+  a.addEventListener('click', e=>{
+    const target = document.querySelector(a.getAttribute('href'));
+    if(target){
+      e.preventDefault();
+      const headerOffset = 110;
+      const top = target.getBoundingClientRect().top + window.scrollY - headerOffset;
+      window.scrollTo({top, behavior:'smooth'});
+    }
+  });
+});
+
+// Active chip highlighting on scroll
+const personas = ['p1','p2','p3','p4','p5','p6','p7','p8'];
+const observer = new IntersectionObserver((entries)=>{
+  entries.forEach(e=>{
+    if(e.isIntersecting){
+      const id = e.target.id;
+      document.querySelectorAll('.pchip').forEach(c=>c.classList.remove('active'));
+      const chip = document.querySelector(`.pchip[href="#${id}"]`);
+      if(chip) chip.classList.add('active');
+    }
+  });
+}, {rootMargin: '-40% 0px -55% 0px'});
+personas.forEach(p=>{
+  const el = document.getElementById(p);
+  if(el) observer.observe(el);
+});
+</script>
+
+</body>
+</html>
